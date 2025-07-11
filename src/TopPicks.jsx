@@ -38,7 +38,7 @@ const TopPicks = () =>  {
                 return (
                   <>
                         <div className='card' >
-                        <img src={`${import.meta.env.VITE_IMAGE_URL}/${val}.jpg`} alt={'comic-pic'} />
+                        <img src={`https://raw.githubusercontent.com/Srinadhsiva/asst/refs/heads/main/public/${val}.jpg`} alt={'comic-pic'} />
                         </div>
                 </>
                  )
