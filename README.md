@@ -1,3 +1,3 @@
 # React + Vite
 
-Check src file for the code.
+Check src folder for the code.
