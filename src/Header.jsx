@@ -24,7 +24,7 @@ const Header = () => {
                   <input className='search-box' type="search-box" placeholder='Search'/>
                 </div>
               <button className='hamburger-menu' ><img src="/search.png" alt="search-icon " /></button>
-            <a  href='/user' className='login-link'><img src={`/0.jpg`} className='login-img' alt="login-img" /></a>
+            <a  href='/user' className='login-link'><img src={`/${import.meta.env.IMAGE_URL/0}.jpg`} className='login-img' alt="login-img" /></a>
             </div>
         </nav>
         {show &&  <>

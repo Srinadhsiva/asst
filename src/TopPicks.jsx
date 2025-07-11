@@ -38,7 +38,7 @@ const TopPicks = () =>  {
                 return (
                   <>
                         <div className='card' >
-                        <img src={`/${val}.jpg`} alt={'comic-pic'} />
+                        <img src={`/${import.meta.env.Image_URL/val}.jpg`} alt={'comic-pic'} />
                         </div>
                 </>
                  )
